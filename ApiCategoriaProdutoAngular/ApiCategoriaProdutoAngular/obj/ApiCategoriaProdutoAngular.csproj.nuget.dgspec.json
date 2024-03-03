@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Respositório C#\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj": {}
+    "C:\\Respositório C#\\ApiStockAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj": {}
   },
   "projects": {
-    "C:\\Respositório C#\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj": {
+    "C:\\Respositório C#\\ApiStockAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Respositório C#\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj",
+        "projectUniqueName": "C:\\Respositório C#\\ApiStockAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj",
         "projectName": "ApiCategoriaProdutoAngular",
-        "projectPath": "C:\\Respositório C#\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj",
+        "projectPath": "C:\\Respositório C#\\ApiStockAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj",
         "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Respositório C#\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\obj\\",
+        "outputPath": "C:\\Respositório C#\\ApiStockAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",

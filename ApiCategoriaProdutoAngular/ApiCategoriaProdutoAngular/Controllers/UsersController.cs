@@ -2,6 +2,7 @@
 using ApiCategoriaProdutoAngular.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiCategoriaProdutoAngular.Controllers;
 
@@ -19,7 +20,7 @@ public class UsersController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<AuthUser>> GetUsers()
     {
-        var users = _context.Users.ToList();
+        var users = _context.Users.AsNoTracking().ToList();
 
         return Ok(users);   
     }

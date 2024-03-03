@@ -20,7 +20,7 @@ public class CategoriasController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<Categoria>> GetCategorias()
     {
-        var categorias = _context.Categorias.ToList();
+        var categorias = _context.Categorias.AsNoTracking().ToList();
 
         return categorias;
     }
@@ -28,7 +28,10 @@ public class CategoriasController : ControllerBase
     [HttpGet("/categoriasProdutos")]
     public ActionResult<IEnumerable<Categoria>> GetCategoriasProduto()  
     {
-        var categoriasProdutos = _context.Categorias.AsNoTracking().Include(produto => produto.Produtos).ToList();
+        var categoriasProdutos = _context.Categorias
+            .AsNoTracking()
+            .Include(produto => produto.Produtos)
+            .ToList();
 
         return categoriasProdutos;  
     }
@@ -65,15 +68,22 @@ public class CategoriasController : ControllerBase
     [HttpDelete("{categoriaId}")]
     public ActionResult<Categoria> DeleteCategoria(string categoriaId)
     {
-        var categoria = _context.Categorias.FirstOrDefault(categoria => categoria.CategoriaId.ToString() == categoriaId);
+        var categoria = _context.Categorias
+            .Include(p => p.Produtos)
+            .FirstOrDefault(c => c.CategoriaId
+            .ToString() == categoriaId);
 
-        if (categoria != null)
+        if (categoria == null)
         {
-           _context.Categorias.Remove(categoria);
+            return NotFound();
         }
-        
+        _context.Produtos.RemoveRange(categoria.Produtos);
+
+        _context.Categorias.Remove(categoria);
+
         _context.SaveChanges();
 
-        return Ok(categoria);   
+        return Ok(categoria);
     }
+
 }

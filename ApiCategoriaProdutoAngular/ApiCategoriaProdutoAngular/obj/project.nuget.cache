@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "daBOh28l0LITPXRTq5dDp1P9ZPyPJwd1KZR9w50/oa8K8BfDIkUnrZTqPi6EPEods7csod+164bLOHP43gH5zg==",
+  "dgSpecHash": "IfOnqWBRJ24k3EugGlnkUgDdizFVgwWj/nc21zaeAhokznlQlijJ78h+kjqtggvZ02+nqG7hDZmmehwcx54Gjg==",
   "success": true,
-  "projectFilePath": "C:\\Respositório C#\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj",
+  "projectFilePath": "C:\\Respositório C#\\ApiStockAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paulo\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.2\\microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
     "C:\\Users\\Paulo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.2\\microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",

@@ -2,6 +2,7 @@
 using ApiCategoriaProdutoAngular.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiCategoriaProdutoAngular.Controllers;
 
@@ -19,7 +20,9 @@ public class ProdutosController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<Produto>> GetProdutos()
     {
-        var produtos = _context.Produtos.ToList();
+        var produtos = _context.Produtos
+            .AsNoTracking()
+            .ToList();
 
         return Ok(produtos);    
     }
@@ -56,7 +59,9 @@ public class ProdutosController : ControllerBase
     [HttpDelete("{produtoId}")]
     public ActionResult<Produto> DeleteProduto(string produtoId)
     {
-        var produto = _context.Produtos.FirstOrDefault(produto => produto.ProdutoId.ToString() == produtoId);
+        var produto = _context.Produtos
+            .FirstOrDefault(produto => produto.ProdutoId
+            .ToString() == produtoId);
 
         if (produto == null)
         {
