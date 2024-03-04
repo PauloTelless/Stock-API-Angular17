@@ -11,7 +11,9 @@ public class Produto
 
     public string? NomeProduto { get; set; }
 
-    public string? MarcaProduto { get; set; }   
+    public string? MarcaProduto { get; set; }
+
+    public string? CategoriaProduto { get; set; }
 
     public string? DescricaoProduto { get; set; }
 

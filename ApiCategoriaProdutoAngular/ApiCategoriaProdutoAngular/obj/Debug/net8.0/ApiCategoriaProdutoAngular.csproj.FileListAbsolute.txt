@@ -69,3 +69,39 @@ C:\Respositório C#\ApiStockAngular\Stock-API-Angular17\ApiCategoriaProdutoAngul
 C:\Respositório C#\ApiStockAngular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.pdb
 C:\Respositório C#\ApiStockAngular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.genruntimeconfig.cache
 C:\Respositório C#\ApiStockAngular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ref\ApiCategoriaProdutoAngular.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\appsettings.Development.json
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\appsettings.json
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\ApiCategoriaProdutoAngular.exe
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\ApiCategoriaProdutoAngular.deps.json
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\ApiCategoriaProdutoAngular.runtimeconfig.json
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\ApiCategoriaProdutoAngular.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\ApiCategoriaProdutoAngular.pdb
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.csproj.AssemblyReference.cache
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.GeneratedMSBuildEditorConfig.editorconfig
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.AssemblyInfoInputs.cache
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.AssemblyInfo.cs
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.csproj.CoreCompileInputs.cache
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.MvcApplicationPartsAssemblyInfo.cs
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.MvcApplicationPartsAssemblyInfo.cache
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.sourcelink.json
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\staticwebassets.build.json
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\staticwebassets.development.json
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\staticwebassets\msbuild.ApiCategoriaProdutoAngular.Microsoft.AspNetCore.StaticWebAssets.props
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\staticwebassets\msbuild.build.ApiCategoriaProdutoAngular.props
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApiCategoriaProdutoAngular.props
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApiCategoriaProdutoAngular.props
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\staticwebassets.pack.json
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\scopedcss\bundle\ApiCategoriaProdutoAngular.styles.css
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.csproj.CopyComplete
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\refint\ApiCategoriaProdutoAngular.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.pdb
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.genruntimeconfig.cache
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ref\ApiCategoriaProdutoAngular.dll

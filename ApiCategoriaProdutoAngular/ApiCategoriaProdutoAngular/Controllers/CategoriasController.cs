@@ -55,14 +55,29 @@ public class CategoriasController : ControllerBase
             return BadRequest("O ID da categoria é inválido.");
         }
 
-        categoria.CategoriaId = id;
+        var categoriaExistente = _context.Categorias
+            .Include(c => c.Produtos) 
+            .FirstOrDefault(c => c.CategoriaId == id);
 
-        _context.Categorias.Entry(categoria).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+        if (categoriaExistente == null)
+        {
+            return NotFound("Categoria não encontrada.");
+        }
+
+        // Atualize o nome da categoria
+        categoriaExistente.NomeCategoria = categoria.NomeCategoria;
+
+        // Atualize também o nome da categoria para todos os produtos associados
+        foreach (var produto in categoriaExistente.Produtos)
+        {
+            produto.CategoriaProduto = categoria.NomeCategoria;
+        }
 
         _context.SaveChanges();
 
-        return categoria;
+        return categoriaExistente;
     }
+
 
 
     [HttpDelete("{categoriaId}")]
