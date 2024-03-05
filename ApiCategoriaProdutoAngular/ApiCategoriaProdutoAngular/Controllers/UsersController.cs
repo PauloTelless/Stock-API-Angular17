@@ -1,6 +1,5 @@
 ﻿using ApiCategoriaProdutoAngular.Context;
 using ApiCategoriaProdutoAngular.Models;
-using ApiCategoriaProdutoAngular.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,12 +18,10 @@ public class UsersController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<AuthUser>>> GetUsersAsync(TokenService tokenService)
+    public async Task<ActionResult<IEnumerable<AuthUser>>> GetUsersAsync()
     {
         try
         {
-            var token  = tokenService.GenereteToken(null);
-            Console.WriteLine(tokenService);
             var users = await _context.Users
             .AsNoTracking()
             .ToListAsync();
