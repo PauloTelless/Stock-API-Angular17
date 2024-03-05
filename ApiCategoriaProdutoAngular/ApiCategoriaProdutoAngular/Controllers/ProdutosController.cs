@@ -1,6 +1,6 @@
 ﻿using ApiCategoriaProdutoAngular.Context;
 using ApiCategoriaProdutoAngular.Models;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,60 +18,96 @@ public class ProdutosController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<Produto>> GetProdutos()
+    public async Task<ActionResult<IEnumerable<Produto>>> GetProdutosAsync()
     {
-        var produtos = _context.Produtos
+        try
+        {
+            var produtos = await _context.Produtos
             .AsNoTracking()
-            .ToList();
+            .ToListAsync();
 
-        return Ok(produtos);    
+            return Ok(produtos);
+        }
+        catch (Exception ex)
+        {
+
+            return BadRequest($"Error: {ex.Message}/Produtos sem dados");
+        }
+
     }
 
     [HttpPost]
-    public ActionResult<Produto> PostProduto(Produto produto) 
+    public async Task<ActionResult<Produto>> PostProdutoAsync(Produto produto)
     {
-        _context.Produtos.Add(produto);
 
-        _context.SaveChanges();
-
-        return produto;
-    }
-
-    [HttpPut("{produtoId}")]   
-    public ActionResult<Produto> PutProduto(Produto produto, string produtoId)
-    {
-        Guid id;
-
-        if (!Guid.TryParse(produtoId, out id))
+        try
         {
-            return BadRequest("Não foi possível converter o GUI em ID");
+            _context.Produtos.Add(produto);
+
+            await _context.SaveChangesAsync();
+
+            return Ok(produto);
+        }
+        catch (Exception ex)
+        {
+
+            return BadRequest($"Error: {ex.Message}");
         }
 
-        produto.ProdutoId = id; 
+    }
 
-        _context.Produtos.Entry(produto).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+    [HttpPut("{produtoId}")]
+    public async Task<ActionResult<Produto>> PutProdutoAsync(Produto produto, string produtoId)
+    {
+        Guid id;
+        try
+        {
+            if (!Guid.TryParse(produtoId, out id))
+            {
+                return BadRequest("Não foi possível converter o GUI em ID");
+            }
 
-        _context.SaveChanges();
+            produto.ProdutoId = id;
 
-        return Ok(produto); 
+            _context.Produtos.Entry(produto).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(produto);
+        }
+        catch (Exception ex)
+        {
+
+            return BadRequest($"Error: {ex.Message}");
+        }
+
     }
 
     [HttpDelete("{produtoId}")]
-    public ActionResult<Produto> DeleteProduto(string produtoId)
+    public async Task<ActionResult<Produto>> DeleteProdutoAsync(string produtoId)
     {
-        var produto = _context.Produtos
-            .FirstOrDefault(produto => produto.ProdutoId
-            .ToString() == produtoId);
-
-        if (produto == null)
+        try
         {
-            return BadRequest("Id não encontrado");
+            var produto = _context.Produtos
+           .FirstOrDefault(produto => produto.ProdutoId
+           .ToString() == produtoId);
+
+            if (produto == null)
+            {
+                return NotFound("Id não encontrado");
+            }
+
+            _context.Produtos.Remove(produto);
+
+            await _context.SaveChangesAsync();
+
+            return Ok(produto);
+        }
+        catch (Exception ex)
+        {
+
+            return BadRequest($"Error: {ex.Message}");
         }
 
-        _context.Produtos.Remove(produto);
-
-        _context.SaveChanges(); 
-
-        return produto;
     }
 }

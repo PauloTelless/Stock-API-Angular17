@@ -1,5 +1,6 @@
 ﻿using ApiCategoriaProdutoAngular.Context;
 using ApiCategoriaProdutoAngular.Models;
+using ApiCategoriaProdutoAngular.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -18,19 +19,42 @@ public class UsersController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<AuthUser>> GetUsers()
+    public async Task<ActionResult<IEnumerable<AuthUser>>> GetUsersAsync(TokenService tokenService)
     {
-        var users = _context.Users.AsNoTracking().ToList();
+        try
+        {
+            var token  = tokenService.GenereteToken(null);
+            Console.WriteLine(tokenService);
+            var users = await _context.Users
+            .AsNoTracking()
+            .ToListAsync();
 
-        return Ok(users);   
+            return Ok(users);
+        }
+        catch (Exception ex)
+        {
+
+            return BadRequest(ex.Message);  
+        }
+           
     }
 
     [HttpGet("auth/{usuarioId}")]
-
-    public ActionResult<AuthUser> GetUser(string usuarioId) 
+    public async Task<ActionResult<AuthUser>> GetUserAsync(string usuarioId) 
     {
-        var user = _context.Users.FirstOrDefault(userId => userId.UsuarioId.ToString() == usuarioId);   
+        try
+        {
+        var user = await _context.Users
+                .FirstOrDefaultAsync(userId => userId.UsuarioId.
+                ToString() == usuarioId);   
 
         return Ok(user);    
+
+        }
+        catch (Exception ex)
+        {
+
+            return BadRequest($"Error: {ex.Message}");
+        }
     }
 }

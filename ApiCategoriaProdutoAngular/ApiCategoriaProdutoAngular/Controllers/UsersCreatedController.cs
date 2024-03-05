@@ -18,7 +18,7 @@ public class UsersCreatedController : ControllerBase
     }
 
     [HttpPost]
-    public ActionResult<CreateUser> PostUser(CreateUser user)
+    public async Task<ActionResult<CreateUser>> PostUserAsync(CreateUser user)
     {
         var authUser = new AuthUser();
 
@@ -28,8 +28,8 @@ public class UsersCreatedController : ControllerBase
 
         _context.Users.Add(authUser);
 
-        _context.SaveChanges();
+        await _context.SaveChangesAsync();
 
-        return user;
+        return Ok(user);
     }
 }

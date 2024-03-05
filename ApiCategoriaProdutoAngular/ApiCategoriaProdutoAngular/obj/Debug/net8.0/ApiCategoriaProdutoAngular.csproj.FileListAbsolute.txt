@@ -105,3 +105,11 @@ C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProduto
 C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.pdb
 C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ApiCategoriaProdutoAngular.genruntimeconfig.cache
 C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\obj\Debug\net8.0\ref\ApiCategoriaProdutoAngular.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\RepositorioGitClone\Stock-API-Angular\Stock-API-Angular17\ApiCategoriaProdutoAngular\ApiCategoriaProdutoAngular\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

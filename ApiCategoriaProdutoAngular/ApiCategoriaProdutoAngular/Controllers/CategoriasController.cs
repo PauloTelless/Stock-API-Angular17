@@ -18,87 +18,130 @@ public class CategoriasController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<Categoria>> GetCategorias()
+    public async Task<ActionResult<IEnumerable<Categoria>>> GetCategoriasAsync()
     {
-        var categorias = _context.Categorias.AsNoTracking().ToList();
+        try
+        {
+            var categorias = await _context.Categorias
+                .AsNoTracking()
+                .ToListAsync();
 
-        return categorias;
+            return Ok(categorias);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Error: {ex.Message}");
+
+        }
+        
     }
 
     [HttpGet("/categoriasProdutos")]
-    public ActionResult<IEnumerable<Categoria>> GetCategoriasProduto()  
+    public async Task<ActionResult<IEnumerable<Categoria>>> GetCategoriasProdutoAsync()  
     {
-        var categoriasProdutos = _context.Categorias
+        try
+        {
+            var categoriasProdutos = await _context.Categorias
             .AsNoTracking()
             .Include(produto => produto.Produtos)
-            .ToList();
+            .ToListAsync();
 
-        return categoriasProdutos;  
+            return Ok(categoriasProdutos);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Error: {ex.Message}");
+        
+        }
+          
     }
 
     [HttpPost]
-    public ActionResult<Categoria> PostCategoria(Categoria categoria)
+    public async Task<ActionResult<Categoria>> PostCategoriaAsync(Categoria categoria)
     {
-        _context.Categorias.Add(categoria);
+        try
+        {
+            _context.Categorias.Add(categoria);
 
-        _context.SaveChanges(); 
+            await _context.SaveChangesAsync();
 
-        return Ok(categoria);
+            return Ok(categoria);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Error: {ex.Message}");
+            
+        }
+        
     }
 
     [HttpPut("{categoriaId}")]
-    public ActionResult<Categoria> PutCategoria(Categoria categoria, string categoriaId)
+    public async Task<ActionResult<Categoria>> PutCategoriaAsync(Categoria categoria, string categoriaId)
     {
         Guid id;
-        if (!Guid.TryParse(categoriaId, out id))
+        try
         {
-            return BadRequest("O ID da categoria é inválido.");
+            if (!Guid.TryParse(categoriaId, out id))
+            {
+                return BadRequest("O ID da categoria é inválido.");
+            }
+
+            var categoriaExistente = await _context.Categorias
+                .Include(c => c.Produtos)
+                .FirstOrDefaultAsync(c => c.CategoriaId == id);
+
+            if (categoriaExistente == null)
+            {
+                return NotFound("Categoria não encontrada.");
+            }
+
+            categoriaExistente.NomeCategoria = categoria.NomeCategoria;
+
+            foreach (var produto in categoriaExistente.Produtos)
+            {
+                produto.CategoriaProduto = categoria.NomeCategoria;
+            }
+
+            await _context.SaveChangesAsync();
+
+            return Ok(categoriaExistente);
         }
-
-        var categoriaExistente = _context.Categorias
-            .Include(c => c.Produtos) 
-            .FirstOrDefault(c => c.CategoriaId == id);
-
-        if (categoriaExistente == null)
+        catch (Exception ex)
         {
-            return NotFound("Categoria não encontrada.");
+
+            return BadRequest($"Error: {ex.Message}");
         }
-
-        // Atualize o nome da categoria
-        categoriaExistente.NomeCategoria = categoria.NomeCategoria;
-
-        // Atualize também o nome da categoria para todos os produtos associados
-        foreach (var produto in categoriaExistente.Produtos)
-        {
-            produto.CategoriaProduto = categoria.NomeCategoria;
-        }
-
-        _context.SaveChanges();
-
-        return categoriaExistente;
+        
     }
 
-
-
     [HttpDelete("{categoriaId}")]
-    public ActionResult<Categoria> DeleteCategoria(string categoriaId)
+    public async Task<ActionResult<Categoria>> DeleteCategoriaAsnc(string categoriaId)
     {
-        var categoria = _context.Categorias
+        try
+        {
+            var categoria = await _context.Categorias
             .Include(p => p.Produtos)
-            .FirstOrDefault(c => c.CategoriaId
+            .FirstOrDefaultAsync(c => c.CategoriaId
             .ToString() == categoriaId);
 
-        if (categoria == null)
-        {
-            return NotFound();
+            if (categoria == null)
+            {
+                return NotFound($"Categoria: {categoria} não encontrada");
+            }
+            _context.Produtos.RemoveRange(categoria.Produtos);
+
+            _context.Categorias.Remove(categoria);
+
+            await _context.SaveChangesAsync();
+
+            return Ok(categoria);
         }
-        _context.Produtos.RemoveRange(categoria.Produtos);
+        catch (Exception)
+        {
 
-        _context.Categorias.Remove(categoria);
-
-        _context.SaveChanges();
-
-        return Ok(categoria);
+            throw;
+        }
+        
     }
 
 }

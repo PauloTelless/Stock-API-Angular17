@@ -1,4 +1,5 @@
 using ApiCategoriaProdutoAngular.Context;
+using ApiCategoriaProdutoAngular.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddTransient<TokenService>();
 
 var myMemoryConnection = builder.Configuration.GetConnectionString("InMemoryData");
 
@@ -28,7 +30,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(builder => builder.WithOrigins("http://localhost:4200")
+app.UseCors(builder => builder.WithOrigins("http://localhost:50779")
     .AllowAnyHeader()
     .AllowAnyMethod()
 );

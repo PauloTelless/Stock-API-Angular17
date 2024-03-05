@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiCategoriaProdutoAngular")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d75b2b683a28c9af9624dc798b506aa48559831d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1e7ee5ffe34bfdf3f713bd5c1d3f0ac754b2dff")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiCategoriaProdutoAngular")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiCategoriaProdutoAngular")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
