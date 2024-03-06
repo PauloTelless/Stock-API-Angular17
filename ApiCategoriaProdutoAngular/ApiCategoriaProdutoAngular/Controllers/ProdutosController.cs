@@ -1,5 +1,6 @@
 ﻿using ApiCategoriaProdutoAngular.Context;
 using ApiCategoriaProdutoAngular.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +18,7 @@ public class ProdutosController : ControllerBase
         _context = context;
     }
 
+    [Authorize]
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Produto>>> GetProdutosAsync()
     {

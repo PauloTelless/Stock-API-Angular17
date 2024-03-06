@@ -1,9 +1,10 @@
 ﻿using ApiCategoriaProdutoAngular.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiCategoriaProdutoAngular.Context;
 
-public class AppDbContext : DbContext
+public class AppDbContext : IdentityDbContext<AplicationUser>
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base (options) {}
 
@@ -11,7 +12,9 @@ public class AppDbContext : DbContext
 
     public DbSet<Produto> Produtos { get; set; }
 
-    public DbSet<AuthUser> Users { get; set; }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder); 
+    }
 
-    public DbSet<CreateUser> UsersCreated { get; set; }
 }
