@@ -3201,19 +3201,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Psouzat\\.nuget\\packages\\": {}
+    "C:\\Users\\Paulo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RepositorioGitClone\\Stock-Api-Clone\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj",
+      "projectUniqueName": "C:\\Respositório C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj",
       "projectName": "ApiCategoriaProdutoAngular",
-      "projectPath": "C:\\RepositorioGitClone\\Stock-Api-Clone\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj",
-      "packagesPath": "C:\\Users\\Psouzat\\.nuget\\packages\\",
-      "outputPath": "C:\\RepositorioGitClone\\Stock-Api-Clone\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\obj\\",
+      "projectPath": "C:\\Respositório C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular.csproj",
+      "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
+      "outputPath": "C:\\Respositório C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Psouzat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3233,6 +3233,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3289,7 +3294,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

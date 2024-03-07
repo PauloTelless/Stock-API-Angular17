@@ -1,7 +1,40 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Resposit\u00F3rio C#\\ApiStockAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|c:\\resposit\u00F3rio c#\\apicategoriaprodutoangular\\stock-api-angular17\\apicategoriaprodutoangular\\apicategoriaprodutoangular\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|solutionrelative:controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|c:\\resposit\u00F3rio c#\\apicategoriaprodutoangular\\stock-api-angular17\\apicategoriaprodutoangular\\apicategoriaprodutoangular\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|c:\\resposit\u00F3rio c#\\apicategoriaprodutoangular\\stock-api-angular17\\apicategoriaprodutoangular\\apicategoriaprodutoangular\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|solutionrelative:services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|c:\\resposit\u00F3rio c#\\apicategoriaprodutoangular\\stock-api-angular17\\apicategoriaprodutoangular\\apicategoriaprodutoangular\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|solutionrelative:controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|c:\\resposit\u00F3rio c#\\apicategoriaprodutoangular\\stock-api-angular17\\apicategoriaprodutoangular\\apicategoriaprodutoangular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|c:\\resposit\u00F3rio c#\\apicategoriaprodutoangular\\stock-api-angular17\\apicategoriaprodutoangular\\apicategoriaprodutoangular\\dtos\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|solutionrelative:dtos\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|c:\\resposit\u00F3rio c#\\apicategoriaprodutoangular\\stock-api-angular17\\apicategoriaprodutoangular\\apicategoriaprodutoangular\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|c:\\resposit\u00F3rio c#\\apicategoriaprodutoangular\\stock-api-angular17\\apicategoriaprodutoangular\\apicategoriaprodutoangular\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BF302A-2760-4B75-8CC9-4E01A2E326DD}|ApiCategoriaProdutoAngular.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +42,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Controllers\\ProdutosController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwBUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T03:32:50.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Services\\ITokenService.cs",
+              "ToolTip": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Services\\ITokenService.cs",
+              "RelativeToolTip": "Services\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T00:43:42.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T00:40:21.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAhwE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T00:29:51.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "Controllers\\CategoriasController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T00:29:05.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-07T00:26:30.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\DTOs\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterModel.cs",
+              "ToolTip": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\DTOs\\RegisterModel.cs",
+              "RelativeToolTip": "DTOs\\RegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T00:11:34.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Resposit\u00F3rio C#\\ApiCategoriaProdutoAngular\\Stock-API-Angular17\\ApiCategoriaProdutoAngular\\ApiCategoriaProdutoAngular\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAhwI8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T00:09:20.701Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"

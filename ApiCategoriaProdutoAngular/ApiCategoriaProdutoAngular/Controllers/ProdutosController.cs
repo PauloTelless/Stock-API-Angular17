@@ -18,7 +18,6 @@ public class ProdutosController : ControllerBase
         _context = context;
     }
 
-    [Authorize]
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Produto>>> GetProdutosAsync()
     {
