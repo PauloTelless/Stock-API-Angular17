@@ -247,4 +247,20 @@ public class AuthController : ControllerBase
         return NoContent();
     }
 
+    [HttpDelete]
+    [Route("deleteUser/{userName}")]
+    public async Task<IActionResult> DeleteUserAsync(string userName)
+    {
+        var user = await _userManager.FindByNameAsync(userName);
+
+        if (user == null)
+        {
+            return NotFound(); // Retorna 404 se o usuário não for encontrado
+        }
+
+        await _userManager.DeleteAsync(user);
+
+        return NoContent(); // Retorna 204 No Content para indicar sucesso sem corpo de resposta
+    }
+
 }
